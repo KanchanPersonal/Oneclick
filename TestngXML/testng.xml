@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OneClick Suite">
+	<test name="OneClick Test">
+		<parameter name="browser" value="firefox" />
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.OneClick.tests.OneClickCarTest"/>
+			<!--<class name="com.ecom.project.Tests.AddToCartTest" />-->
+		</classes>
+	</test> <!--
+	Ecommerce Test -->
+</suite> <!--
+Ecommerce Suite -->
